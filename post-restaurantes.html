@@ -31,7 +31,7 @@
         }
 
         h1 { color: var(--primary); margin-top: 0.5rem; }
-        h2 { color: var(--primary); border-left: 4px solid var(--secondary); padding-left: 10px; }
+        h2 { color: var(--primary); border-left: 4px solid var(--secondary); padding-left: 10px; margin-top: 2rem; }
         
         .highlight { color: var(--secondary); font-weight: bold; }
 
@@ -57,6 +57,14 @@
             padding: 2.5rem;
             border-radius: 8px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .kpi-box {
+            background: #eef2f3; 
+            padding: 1.5rem; 
+            border-radius: 8px; 
+            margin: 1.5rem 0;
+            border-left: 5px solid var(--primary);
         }
 
         ul { padding-left: 1.5rem; }
@@ -95,26 +103,29 @@
 
     <article>
         <header>
-            <h1>SEO para Restaurantes: <span class="highlight">¿Por qué el PPC puede estar devorando tus beneficios?</span></h1>
-            <p><em>Por: Edson Correa | Ingeniero SEO en Formación | 18 de Febrero, 2026</em></p>
+            <h1>SEO para Restaurantes: <span class="highlight">¿Por qué el PPC devora tus beneficios?</span></h1>
+            <p><em>Por: Edson Correa | Ingeniero SEO | 18 de Febrero, 2026</em></p>
         </header>
 
-        <section>
+        <section id="problema-ppc">
             <h2>El problema del coste por clic (PPC) en la comida</h2>
-            <p>Como mencionábamos en nuestra charla estratégica, el modelo de <strong>PPC (Pago por Clic)</strong> suele ser una trampa para los restaurantes con tickets medios ajustados. Si pagas 1€ por cada clic y necesitas 10 clics para una reserva, el coste de adquisición es de 10€, lo cual puede eliminar el margen de ganancia de un plato principal.</p>
+            <p>El modelo de <strong>PPC (Pago por Clic)</strong> suele ser una trampa para los restaurantes con tickets medios ajustados. Si pagas 1€ por cada clic y necesitas 10 clics para una reserva, el coste de adquisición es de 10€, lo cual puede eliminar el margen de ganancia de un plato principal.</p>
         </section>
 
-        <section>
+        <section id="metricas-exito">
+            <div class="kpi-box">
+                <h3>¿Cómo medimos el éxito?</h3>
+                <p>No solo miramos clics, miramos <strong>Conversiones de Negocio</strong>:</p>
+                <ul>
+                    <li><strong>Llamadas directas:</strong> Clics en el botón de llamar desde Google Maps.</li>
+                    <li><strong>Solicitudes de ruta:</strong> Personas que piden indicaciones para llegar al local.</li>
+                    <li><strong>Reservas directas:</strong> Tráfico que llega a la web sin comisiones.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="solucion-seo">
             <h2>La alternativa: Ingeniería SEO Local</h2>
-            <section style="background: #eef2f3; padding: 1.5rem; border-radius: 8px; margin-top: 1rem;">
-            <h3>¿Cómo medimos el éxito?</h3>
-            <p>No solo miramos clics, miramos <strong>Conversiones de Negocio</strong>:</p>
-            <ul>
-                 <li><strong>Llamadas directas:</strong> Clics en el botón de llamar desde Google Maps.</li>
-                 <li><strong>Solicitudes de ruta:</strong> Personas que piden indicaciones para llegar al local.</li>
-                 <li><strong>Reservas directas:</strong> Tráfico que llega a la web y reserva sin pagar comisiones a terceros.</li>
-            </ul>
-</section>
             <p>El SEO Local permite que el restaurante aparezca en el <strong>Local Pack de Google Maps</strong> de forma orgánica. No pagas por el clic; pagas por la optimización técnica inicial.</p>
             <ul>
                 <li><strong>Relevancia:</strong> Optimizar para "Mejor pasta en [Ciudad]".</li>
@@ -123,9 +134,9 @@
             </ul>
         </section>
 
-        <section>
+        <section id="conclusion">
             <h2>Conclusión estratégica</h2>
-            <p>Para un restaurante, el SEO no es un lujo, es una medida de protección de beneficios. Invertir en tráfico orgánico es construir un activo que trabaja 24/7 sin coste variable.</p>
+            <p>Invertir en tráfico orgánico es construir un activo que trabaja 24/7 sin coste variable, protegiendo la rentabilidad a largo plazo.</p>
         </section>
     </article>
 
