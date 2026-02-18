@@ -1,9 +1,5 @@
 User-agent: *
 Allow: /
 
-#Bloqueamos páginas que no queremos que gasten nuestro presupuesto de rastreo.
-Disallow: /terminos-y-condiciones
-Disallow: /politica-privacidad
-
-#Le decimos a Google dónde esta el mapa de nuestro sitio (Lo crearemos después)
+# Ubicación del mapa del sitio para facilitar el rastreo
 Sitemap: https://silerxd.github.io/sitemap.xml
